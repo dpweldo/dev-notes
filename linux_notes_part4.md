@@ -127,6 +127,9 @@ ip addr show #gives list of IP addresses of NIC and local
 ~~~shell
 ping #sends ICMP request to host
 ~~~
+~~~shell
+curl #like ping but not blocked as often
+~~~
 
 ### DNS Client Configuration
 Maps domain names to IP addresses.
@@ -139,9 +142,10 @@ dig @1.1.1.1 www.linuxacademy.com #asks the DNS server of 1.1.1.1
 ~~~
 ~~~shell
 host www.example.com #another command to show ip address of domain name, more simple result
+host www.example.com 1.1.1.1
 ~~~
 
-### Newtwork Configuration
+### Network Configuration
 Address Configuration
 ~~~shell
 ip route show #shows the default routing table (send default to router ecept on local to ens33 (local) NICs and such)
