@@ -164,3 +164,32 @@ While looping - uses
     </body>
 </html>
 ~~~
+
+## Basics of Functions
+Starts with key word, then name, then arguments (optional inputs), and then the fuction using to `return` for a output.
+~~~js
+function addnumbers (n1, n2) {
+    return n1 + n2;
+}
+~~~
+## Basics of Frameworks
+Create a new file in the same folder as the `index.html` file. Then you can write `src = libfile.js`. A framwork exposes an API to code. You can use libraries too with the `src` code. Some frameworks like AngularJS, React, etc. You usually pick one framework and stick with it.
+
+## Server Side Javascript with NodeJS
+
+Node JS lets you create a server. Allows to you to do a web request process in JS. http request, create server, then listen on a port. Serves as the framework on the server.
+
+## REST and API
+
+### REpresentational State Transfer
+* Client Server Based - each side does just one job
+* Stateless - no state is stored, every request has all info
+* Cachable - responses not changed can be used again to load faster
+* Layerable - can go through proxy or load balancer
+* Extendable - server to add functinality to client
+* Uniform Interface - anticipate how a response is formated
+
+### API
+
+Defines how  a system will responds and what queries are valid to interact with that system.
+
